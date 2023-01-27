@@ -97,6 +97,12 @@ void main() async {
     age: 35,
   );
 
+  var medor = const Dog(
+    id: 0,
+    name: 'Medor',
+    age: 5,
+  );
+
   await insertDog(fido);
 
   // Now, use the method above to retrieve all the dogs.
